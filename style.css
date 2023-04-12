@@ -1,0 +1,106 @@
+.navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.left-section{
+    flex: 1;
+}
+/* .right-section{
+    flex: 1;
+} */
+.mid-section{
+    flex: 1;
+}
+ul .intro{   
+    display: inline-block;
+    /* margin-right: 30px; */
+    margin-left: 40px;
+}
+ul li a{
+    /* display: inline-block; */
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
+.apple-logo{
+    width: 50px;
+    height: 55px;
+}
+.search-button{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.image-banner{
+}
+.banner{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.list-product{
+    flex: 1;
+    background-color: rgb(182, 182, 182);
+}
+.detail{
+    flex: 3;
+}
+
+.category{
+    background-color: rgb(255, 145, 0);
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+
+.detail-title{
+    color: cyan;
+    text-align: center;
+}
+
+.detail-intro{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px 10px 20px;
+    margin: 10px 20px 50px 20px;    
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+.detail-intro img{
+    margin-right: 20px;
+    width: 200px;   
+}
+
+.product-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product{
+    margin: 0px 10px 50px 10px;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.product img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.758);
+    color: white;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+}
